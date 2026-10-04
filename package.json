@@ -1,0 +1,10 @@
+{
+  "name": "bahaymarket-ph",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["server"],
+  "scripts": {
+    "start": "npm --workspace server start",
+    "dev": "npm --workspace server run dev"
+  }
+}
